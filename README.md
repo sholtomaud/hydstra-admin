@@ -1,6 +1,5 @@
 # Kisters: Hydstra Software As a Service
 
-```
 * Cloud system hosted on AWS/microsoft whatever
 * System & Database Backup
 * Disaster Recovery Plan 
@@ -11,7 +10,6 @@
 * Manage HYACCESS.INI to keep system running.
 * Manage HYCONFIG.INI
 * Document the system including upgrades etc
-```
 
 ## Hosting Cost
 
@@ -20,7 +18,8 @@ Include Hosting costs
 Sum of costs for above = $x
 
 
-# Hydstra Administration Service (outsourced or in-house)
+# Hydstra Administration Service 
+## Outsourced or in-house
 
 ```
 * HYAUDIT
