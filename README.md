@@ -20,7 +20,7 @@ The aim of this repository is:
 | Manage HYACCESS.INI to keep system running ||
 | Manage HYCONFIG.INI ||
 | Document the system including upgrades etc ||
-| ** TOTAL HOSTING COST ** ||
+| **TOTAL HOSTING COST** ||
 
 * Adjust licensing fees appropriately for multiple agencies
 * Include Hosting costs
@@ -41,4 +41,4 @@ The aim of this repository is:
 | Provide first contact phone support ||
 | Maintain import-export & notification processors ||
 | Escalate to Kisters where support cannot be provided ||
-| ** TOTAL ADMIN COST ** ||
+| **TOTAL ADMIN COST** ||
