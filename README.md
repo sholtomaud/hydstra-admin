@@ -1,4 +1,12 @@
-# Kisters: Hydstra Software As a Service
+# Hydstra in the cloud discussion repository
+
+The aim of this repository is:
+
+1. To identify an appropriate model for cloud-based Hydstra software
+2. To idenfity apprpriate Hydstra admin models for the cloud-based Hydstra
+
+
+## Kisters: Hydstra Software As a Service
 
 * Cloud system hosted on AWS/microsoft whatever
 * System & Database Backup
@@ -18,8 +26,8 @@ Include Hosting costs
 Sum of costs for above = $x
 
 
-# Hydstra Administration Service 
-## Outsourced or in-house
+## Hydstra Administration Service 
+### Outsourced or in-house
 
 ```
 * HYAUDIT
