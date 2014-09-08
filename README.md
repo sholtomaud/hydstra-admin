@@ -3,7 +3,7 @@
 The aim of this repository is:
 
 1. To identify an appropriate model for cloud-based Hydstra software
-2. To idenfity apprpriate Hydstra admin models for the cloud-based Hydstra
+2. To idenfity apprpriate administraion models for cloud-based Hydstra
 
 
 ## Kisters: Hydstra Software As a Service
