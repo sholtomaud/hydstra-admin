@@ -16,13 +16,13 @@ The aim of this repository is:
 ## Kisters
 
 | System | Software | Description | OS | Est. Costs    | 
-| :---------- | :---------- |  :---------- | ------ | ---------------| 
+| :----------- | :---------- |  :---------- | ------ | ---------------| 
 | Test Server  | Hydstra | 1 test install for all clients | Windows | | 
 
 ## Hydrological Data Services	
 
 | System | Software | Description | OS | Est. Costs    | 
-| :---------- | :---------- |  :---------- | ------ | ---------------| 
+| :----------- | :---------- |  :---------- | ------ | ---------------| 
 | Task Server  | AWS EC2 | Used for exe applications | Windows | | 
 | Task Server  | Hydstra | Used for exe applications | Windows | | 
 | Task Server  | PM2 | For running Hydstra exe tasks | Windows | | 
@@ -54,6 +54,9 @@ The aim of this repository is:
 
 * Adjust licensing fees appropriately for multiple agencies
 * Include Hosting costs
+
+![Deployment Diagram](https://www.lucidchart.com/publicSegments/view/5497b4a3-8d28-449a-9070-51a40a004901/image.png)
+
 
 
 ## Hydstra Administration Service 
