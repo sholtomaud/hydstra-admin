@@ -15,15 +15,21 @@ The aim of this repository is:
 
 ## Kisters
 
-| Test Server | (Windows license? Y) | (Est. Cost)    | 
-| :---------- | -------------------- | ---------------| 
-| Hydstra - only one test install for all clients | || 
+| System | Description | OS | Est. Costs    | 
+| :---------- | :---------- | -------------------- | ---------------| 
+| Test Server  | 1 test install for all clients | Windows || 
+| Hydstra  | Test System | Windows | | 
 
 
 ## Hydrological Data Services	
 
-* Administration Server
-* Linux which runs deployement scripts after an update
+| System | Description | OS | Est. Costs    | 
+| :---------- | :---------- | -------------------- | ---------------| 
+
+| Admin Server  | Linux which runs deployement scripts after an update | Linux | | 
+|   | Y || 
+
+* 
 * Or can we just do this from a dev machine with the scripts stored in Git?
 
  TaskServer (Windows license? Y)
