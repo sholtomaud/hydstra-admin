@@ -20,30 +20,30 @@ Thoughts on setup
 
 ### Kisters
 
-* Test (Windows license? Y) (Est. Cost)
-** Hydstra - only one test install for all clients 
+#### Test (Windows license? Y) (Est. Cost)
+* Hydstra - only one test install for all clients 
 
 
 ### Hydrological Data Services	
 
-* Administration Server
-** Linux which runs deployement scripts after an update
-** Or can we just do this from a dev machine with the scripts stored in Git?
+#### Administration Server
+* Linux which runs deployement scripts after an update
+* Or can we just do this from a dev machine with the scripts stored in Git?
 
-* TaskServer (Windows license? Y)
-** Hydstra
-** PM2 for monitoring & spawning Hydstra apps
-** nodejs webservice
-** hymailer to email issues
+#### TaskServer (Windows license? Y)
+* Hydstra
+* PM2 for monitoring & spawning Hydstra apps
+* nodejs webservice
+* hymailer to email issues
 
-* AppStream (Windows licence? Y)
-** Hydstra 
+#### AppStream (Windows licence? Y)
+* Hydstra 
 
-* Linux Fedora machine (DigitalOcean? Y $5/mth)
-** PostGres/mongo/cassandra db 
+#### Linux Fedora machine (DigitalOcean? Y $5/mth)
+* PostGres/mongo/cassandra db 
 
-* AWS S3 - Linux HADOOP??
-** Hydstra ts & documents
+#### AWS S3 - Linux HADOOP??
+* Hydstra ts & documents
 
 
 ## Kisters: Hydstra Software As a Service
