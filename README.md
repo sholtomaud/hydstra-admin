@@ -8,26 +8,24 @@ The aim of this repository is:
 Thoughts on setup
 =================
 
-# Architecture & responsibilities
+## Architecture & responsibilities
 
 
-#Client
+### Client
 
 * 1x HYCONFIG.INI per client.
 * Each client needs an appstream with their specific config deployed
 * So for each client, store HYCONFIG.INI in MONGO.db
 * Have an aws cli script which deploys AppStream automatically. I.e. cutover from staging environment.
 
-# Kisters
+### Kisters
 
-```
 * Test (Windows license? Y) (Est. Cost)
 ** Hydstra - only one test install for all clients 
 
-```
 
-# Hydrological Data Services	
-```
+### Hydrological Data Services	
+
 * Administration Server
 ** Linux which runs deployement scripts after an update
 ** Or can we just do this from a dev machine with the scripts stored in Git?
@@ -46,10 +44,6 @@ Thoughts on setup
 
 * AWS S3 - Linux HADOOP??
 ** Hydstra ts & documents
-
-```
-
-
 
 
 ## Kisters: Hydstra Software As a Service
