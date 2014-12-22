@@ -15,37 +15,25 @@ The aim of this repository is:
 
 ## Kisters
 
-| System | Description | OS | Est. Costs    | 
-| :---------- | :---------- | -------------------- | ---------------| 
-| Test Server  | 1 test install for all clients | Windows || 
-| Hydstra  | Test System | Windows | | 
-
+| System | Software | Description | OS | Est. Costs    | 
+| :---------- | :---------- |  :---------- | ------ | ---------------| 
+| Test Server  | Hydstra | 1 test install for all clients | Windows | | 
 
 ## Hydrological Data Services	
 
-| System | Description | OS | Est. Costs    | 
-| :---------- | :---------- | -------------------- | ---------------| 
-
-| Admin Server  | Linux which runs deployement scripts after an update | Linux | | 
-|   | Y || 
-
-* 
-* Or can we just do this from a dev machine with the scripts stored in Git?
-
- TaskServer (Windows license? Y)
-* Hydstra
-* PM2 for monitoring & spawning Hydstra apps
-* nodejs webservice
-* hymailer to email issues
-
-#### AppStream (Windows licence? Y)
-* Hydstra 
-
-#### Linux Fedora machine (DigitalOcean? Y $5/mth)
-* PostGres/mongo/cassandra db 
-
-#### AWS S3 - Linux HADOOP??
-* Hydstra ts & documents
+| System | Software | Description | OS | Est. Costs    | 
+| :---------- | :---------- |  :---------- | ------ | ---------------| 
+| Task Server  | AWS EC2 | Used for exe applications | Windows | | 
+| Task Server  | Hydstra | Used for exe applications | Windows | | 
+| Task Server  | PM2 | For running Hydstra exe tasks | Windows | | 
+| Task Server  | nodejs webservice | For calling hyddlpx.exe | Windows | | 
+| Task Server  | node-mailer | For emailing reports etc | Windows | | 
+| AppStream    | AWS AppStream | For streaming Hydstra applicatiaon | Windows | | 
+| AppStream    | Hydstra | Streamed app | Windows | | 
+| Admin Server | Linux | runs deployement scripts (could be a desktop with bash stored in git) | Linux | |  
+| db Server | Fedora machine | DigitalOcean VM | Linux | $5/mth |  
+| db Server | PostGres/mongo/cassandra db | - |  Linux | $5/mth |  
+| file Server | HDFS/S3 ?? | Used for Hydstra ts & documents | Linux? ||  
 
 
 ## Kisters: Hydstra Software As a Service
