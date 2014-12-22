@@ -5,6 +5,52 @@ The aim of this repository is:
 1. To identify an appropriate model for cloud-based Hydstra software
 2. To idenfity apprpriate administraion models for cloud-based Hydstra
 
+Thoughts on setup
+=================
+
+# Architecture & responsibilities
+
+
+#Client
+
+* 1x HYCONFIG.INI per client.
+* Each client needs an appstream with their specific config deployed
+* So for each client, store HYCONFIG.INI in MONGO.db
+* Have an aws cli script which deploys AppStream automatically. I.e. cutover from staging environment.
+
+# Kisters
+
+```
+* Test (Windows license? Y) (Est. Cost)
+** Hydstra - only one test install for all clients 
+
+```
+
+# Hydrological Data Services	
+```
+* Administration Server
+** Linux which runs deployement scripts after an update
+** Or can we just do this from a dev machine with the scripts stored in Git?
+
+* TaskServer (Windows license? Y)
+** Hydstra
+** PM2 for monitoring & spawning Hydstra apps
+** nodejs webservice
+** hymailer to email issues
+
+* AppStream (Windows licence? Y)
+** Hydstra 
+
+* Linux Fedora machine (DigitalOcean? Y $5/mth)
+** PostGres/mongo/cassandra db 
+
+* AWS S3 - Linux HADOOP??
+** Hydstra ts & documents
+
+```
+
+
+
 
 ## Kisters: Hydstra Software As a Service
 
